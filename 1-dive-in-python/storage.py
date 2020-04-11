@@ -50,6 +50,7 @@ def _main():
 
     if not value:
         print(*data.get(key, []), sep=', ')
+        return None
 
     write_json(data, key, value)
 
