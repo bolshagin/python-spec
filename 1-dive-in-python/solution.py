@@ -1,5 +1,6 @@
 import sys
 
+
 def mult(xs: list) -> int:
     res = 0
     for x in xs:
